@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.header {
+	background-color: #316dc3 !important;
+	padding-top: 10px;
+}
+.social-icon-list {
+	display: inline-block;
+	list-style: none;
+	margin-left: 45px;
+}
+.social-icon-list li {
+	margin: 0px 5px 0px 15px;
+	display: inline-block;
+}
+
+.socail-icon {
+	font: 24px;
+	color: white;
+}
+.button {
+	font-size: 12px;
+	padding: 5px 10px 5px 10px;
+}
+.headerbtn {
+	text-align: center;
+}
+.whatsapp {
+	background: green;
+}
+.carousel-item img {
+	height: 500px !important;
+	width: 100% !important;
+}
+.container-fluid-new
+{
+    padding-right: 0px !important; 
+     padding-left: 0px !important;
+     margin-left: 0px !important;
+     margin-right: 0px !important;
+}
