@@ -1,6 +1,7 @@
-* {
-	padding: 0;
-	margin: 0;
+body{
+	color: #666666 ;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 .header {
 	background-color: #316dc3 !important;
@@ -41,3 +42,89 @@
      margin-left: 0px !important;
      margin-right: 0px !important;
 }
+.saylanilogowrapper{
+	/* margin: 10px 30px 0 0; */
+	margin-left: 5rem;
+}
+.Saylani-logo{
+	max-height: 52px;
+}
+.navbar-nav li{
+	margin-left: 1.5rem !important;
+	font-size: 14px;
+}
+.navbar-nav a {
+	color: black;
+}
+.navbar-nav a:hover {
+	color: white;
+}
+.navbar li:hover, .homeButton{
+	margin-left: 1.5rem !important;
+    background: #316dc3 !important;
+    border-radius: 15px !important;
+    color: white !important;
+    padding: 0px 5px 0 5px !important;
+}
+.dropdown-item:hover{
+color: white !important;
+background-color: #316dc3 !important;
+}
+.navigationItems{
+padding-left:10rem !important;
+}
+
+.mywrapper{
+	padding-left: 5rem !important;
+	padding-right: 5rem !important;
+	margin-bottom:3rem;
+	}
+.saylani-introduction{
+	text-align: center !important;
+	text-transform: uppercase;
+	color: #316DC3;
+	line-height: 1;
+	margin-top: 3rem;
+
+}
+ .saylaniparagrapgh{
+	text-align: justify;
+	font-size: 15px;
+	color: #666666 !important;;
+}
+.green{
+	color: #427900 !important;
+}
+.lightgreen{
+	color: #00FF00;
+}
+.titleIcon{
+	text-align: center;
+}
+.titleIcon img{
+	height: 40px;
+}
+.rightbox{
+	border-bottom:2px solid green;
+	width: 50px;
+}
+.leftbox{
+	border-bottom:2px solid green;
+	width: 50px;
+}
+
+.bluebox{
+	background-color: rgba(36, 79, 242) !important;
+	min-height: 200px;
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.blueboxheading{
+	color: white;
+}
+.shadowboxes{
+	text-transform: uppercase;
+	text-align:center;
+}
+
