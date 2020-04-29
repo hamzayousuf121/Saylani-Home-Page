@@ -1,10 +1,12 @@
-body{
-	color: #666666 ;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+body {
+	color: #666666;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	scroll-behavior: smooth;
+	background-color: #f8f9fa;
 }
 .header {
-	background-color: #316dc3 !important;
+	background-color: #316dc3;
 	padding-top: 10px;
 }
 .social-icon-list {
@@ -32,25 +34,24 @@ body{
 	background: green;
 }
 .carousel-item img {
-	height: 500px !important;
-	width: 100% !important;
+	height: 500px;
+	width: 100%;
 }
-.container-fluid-new
-{
-    padding-right: 0px !important; 
-     padding-left: 0px !important;
-     margin-left: 0px !important;
-     margin-right: 0px !important;
+.container-fluid-new {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
-.saylanilogowrapper{
+.saylanilogowrapper {
 	/* margin: 10px 30px 0 0; */
 	margin-left: 5rem;
 }
-.Saylani-logo{
+.Saylani-logo {
 	max-height: 52px;
 }
-.navbar-nav li{
-	margin-left: 1.5rem !important;
+.navbar-nav li {
+	margin-left: 1.5rem;
 	font-size: 14px;
 }
 .navbar-nav a {
@@ -59,72 +60,138 @@ body{
 .navbar-nav a:hover {
 	color: white;
 }
-.navbar li:hover, .homeButton{
-	margin-left: 1.5rem !important;
-    background: #316dc3 !important;
-    border-radius: 15px !important;
-    color: white !important;
-    padding: 0px 5px 0 5px !important;
+.navbar li:hover,
+.homeButton {
+	margin-left: 1.5rem;
+	background: #316dc3;
+	border-radius: 15px;
+	color: white;
+	padding: 0px 5px 0 5px;
 }
-.dropdown-item:hover{
-color: white !important;
-background-color: #316dc3 !important;
+.dropdown-item:hover {
+	color: white;
+	background-color: #316dc3;
 }
-.navigationItems{
-padding-left:10rem !important;
+.navigationItems {
+	padding-left: 10rem;
 }
 
-.mywrapper{
-	padding-left: 5rem !important;
-	padding-right: 5rem !important;
-	margin-bottom:3rem;
-	}
-.saylani-introduction{
-	text-align: center !important;
+.mywrapper {
+	padding-left: 5rem;
+	padding-right: 5rem;
+	margin-bottom: 3rem;
+}
+.saylani-introduction {
+	text-align: center;
 	text-transform: uppercase;
-	color: #316DC3;
+	color: #316dc3;
 	line-height: 1;
 	margin-top: 3rem;
-
+	font-size: 2rem;
 }
- .saylaniparagrapgh{
+.saylaniparagrapgh {
 	text-align: justify;
 	font-size: 15px;
-	color: #666666 !important;;
+	color: #666666;
 }
-.green{
-	color: #427900 !important;
+.green {
+	color: #427900;
 }
-.lightgreen{
-	color: #00FF00;
+.lightgreen {
+	color: #00ff00;
 }
-.titleIcon{
+.titleIcon {
 	text-align: center;
 }
-.titleIcon img{
+.titleIcon img {
 	height: 40px;
 }
-.rightbox{
-	border-bottom:2px solid green;
+.rightbox {
+	border-bottom: 2px solid green;
 	width: 50px;
 }
-.leftbox{
-	border-bottom:2px solid green;
+.leftbox {
+	border-bottom: 2px solid green;
 	width: 50px;
 }
 
-.bluebox{
-	background-color: rgba(36, 79, 242) !important;
+.bluebox {
+	background-color: rgba(36, 79, 242);
 	min-height: 200px;
 	text-align: center;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
-.blueboxheading{
+.blueboxheading {
 	color: white;
 }
-.shadowboxes{
+.shadowboxes {
 	text-transform: uppercase;
-	text-align:center;
+	text-align: center;
 }
 
+.shadowBox {
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 30px;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+	margin-top: 10px;
+	background-color: white;
+}
+.shadowboxText {
+	text-transform: uppercase;
+	color: #316dc3;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 1.5rem;
+}
+.missionheading {
+	color: #316dc3;
+	font-weight: 600;
+}
+.rashanimg {
+	width: 20% !important;
+}
+.footerheading {
+	padding-left: 37px;
+	color: white;
+	font-size: 20px;
+}
+.footerheading:after {
+	bottom: -1px;
+	content: "";
+	height: 2px;
+	left: 0;
+	position: absolute;
+	width: 50px;
+}
+
+.liststylefooter {
+	list-style: none;
+}
+.liststylefooter li i {
+	font-size: 16px;
+}
+.footersocialiconlist {
+	list-style: none;
+	display: flex;
+}
+.footersocialiconlist li {
+	margin-left: 5px;
+}
+.footersocialiconlist li :hover {
+	color: #316dc3;
+	background: white;
+}
+.socail-icon-footer {
+	color: white;
+	font-size: 16px;
+	background: #316dc3;
+	border-radius: 50%;
+	padding: 8px;
+}
+
+.footercolor {
+	color: #bbb;
+}

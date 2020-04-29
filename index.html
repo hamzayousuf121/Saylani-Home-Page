@@ -6,10 +6,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
   <title>Saylani Home</title>
 </head>
 
@@ -56,7 +58,7 @@
 
   <!-- Navbar Start-->
 
-  <nav class="navbar navbar-expand-md bg-light sticky-top">
+  <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
     <a class="navbar-brand saylanilogowrapper" href="/home">
       <img src="./assets/images/Saylani-logo.png" class="img-fluid Saylani-logo" alt="logo" /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -148,10 +150,10 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active" data-interval="10000">
-        <img src="./assets/images/Banner.jpeg" class="img-fluid w-100" alt="Los Angeles">
+        <img src="./assets/images/Banner.jpeg" data-aos="zoom-in-down" class="img-fluid w-100" alt="Los Angeles">
       </div>
 
-      <div class="carousel-item" data-interval="20000">
+      <div class="carousel-item" data-interval="10000">
         <img src="./assets/images/BloodBank_Slider.jpg" class="img-fluid w-100" alt="blood Bank">
       </div>
 
@@ -160,20 +162,20 @@
 
       </div>
 
-      <div class="carousel-item" data-interval="20000">
+      <div class="carousel-item" data-interval="10000">
         <img src="./assets/images/ehsaas&saylani.jpeg" class="img-fluid w-100" alt="Ehsas Saylani">
 
       </div>
 
-      <div class="carousel-item" data-interval="30000">
+      <div class="carousel-item" data-interval="10000">
         <img src="./assets/images/RotiBank_Slider.jpg" class="img-fluid w-100" alt="Roti Bank">
       </div>
 
-      <div class="carousel-item" data-interval="20000">
+      <div class="carousel-item" data-interval="10000">
         <img src="./assets/images/slider1.png" class="img-fluid w-100" alt="Banner">
       </div>
 
-      <div class="carousel-item" data-interval="40000">
+      <div class="carousel-item" data-interval="10000">
         <img src="./assets/images/slider2.png" class="img-fluid w-100" alt="Banner">
       </div>
     </div>
@@ -252,19 +254,21 @@
       </div>
       <br>
 
-      <p class="saylaniparagrapgh">Established in May 1999 by famous spiritual and religious scholar Maulana Bashir
+      <p data-aos="zoom-in-up" class="saylaniparagrapgh">Established in May 1999 by famous spiritual and religious
+        scholar Maulana Bashir
         Ahmed Farooqui, Saylani
         Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the
         financial troubles of the poor, giving people a chance to live a dignified life and spreading happiness.</p>
 
-      <p class="saylaniparagrapgh">We are an organization that believes in lighting up the lives of underprivileged
+      <p data-aos="zoom-in-down" class="saylaniparagrapgh">We are an organization that believes in lighting up the lives
+        of underprivileged
         people across the world. We
         endeavor to provide the best quality services in areas including food, education, medical and social welfare
         free of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people
         each day, hundreds more are given the hope of life through medical health care, many are educated to become
         leaders of tomorrow and several are given the opportunity to stand on their feet financially.
       </p>
-      <p class="saylaniparagrapgh">
+      <p data-aos="zoom-in" class="saylaniparagrapgh">
         Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125
         branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and Faisalabad.
         Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide branches are
@@ -272,7 +276,7 @@
         daily basis.
 
       </p>
-      <p>
+      <p data-aos="zoom-in-down" class="saylaniparagrapgh">
         We strongly believe that a little help goes a long way and our work would not be possible without the generous
         support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting
         our causes and enabling us to serve the needs of people in need.
@@ -304,52 +308,182 @@
       </div>
     </div>
   </div>
-<div class="container-fluid">
-  <h1 class="saylani-introduction">What we <span class="green">are doing</span></h1>
-  <div class="titleIcon">
-    <span class="rightbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;
-    <img src="./assets/images/favicon.png" class="img-fluid" alt="title Icon" />
-    &nbsp;&nbsp;<span class="leftbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+  <div class="container-fluid mb-5">
+    <h1 class="saylani-introduction">What we <span class="green">are doing</span></h1>
+    <div class="titleIcon">
+      <span class="rightbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;
+      <img src="./assets/images/favicon.png" class="img-fluid" alt="title Icon" />
+      &nbsp;&nbsp;<span class="leftbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </div>
   </div>
-  </div>
-  <div class="container-fluid shadowboxes">
+
+  <div class="container shadowboxes mt-5">
     <div class="row">
       <div class="col-lg-4 col-12 col-sm-12 col-md-12">
-        <img src="./assets/images/onlinesadqah.png"  style="height: 40;" alt="onlinesadqah"><br>
-        Online sadqah
+        <div class="shadowBox">
+          <img src="./assets/images/onlinesadqah.png" style="height: 40;" alt="onlinesadqah"><br>
+          <span class="shadowboxText">Online sadqah</span>
         </div>
-        <div class="col-lg-4 col-12 col-sm-12 col-md-12">
-        <img src="./assets/images/welfare.png"  style="height: 40;" alt="welfare"><br>
+      </div>
+      <div class="col-lg-4 col-12 col-sm-12 col-md-12">
+        <div class="shadowBox">
+          <img src="./assets/images/welfare.png" style="height: 40;" alt="welfare"><br>
+          <span class="shadowboxText">welfare</span>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 col-sm-12 col-md-12">
+        <div class="shadowBox">
+          <img src="./assets/images/medical.png" style="height: 40;" alt="medical"><br>
 
-          welfare
-          </div>
-          <div class="col-lg-4 col-12 col-sm-12 col-md-12">
-        <img src="./assets/images/medical.png"  style="height: 40;" alt="medical"><br>
+          <span class="shadowboxText">medical</span>
 
-            medical
-            </div>
+        </div>
+      </div>
 
     </div>
   </div>
 
-  <div class="container-fluid shadowboxes">
+  <div class="container shadowboxes">
     <div class="row">
       <div class="col-lg-4 col-12 col-sm-12 col-md-12">
-        <img src="./assets/images/Dastarkhwan.png"  style="height: 40;" alt="dastarkhuan"><br>
-        
-        dastarkhuan
+        <div class="shadowBox">
+          <img src="./assets/images/Dastarkhwan.png" style="height: 40;" alt="dastarkhuan"><br>
+
+          <span class="shadowboxText">dastarkhuan</span>
         </div>
-        <div class="col-lg-4 col-12 col-sm-12 col-md-12">
-        <img src="./assets/images/ROPLANT.png"  style="height: 40;" alt="ro plant"><br>
 
-          ro plant
-          </div>
-          <div class="col-lg-4 col-12 col-sm-12 col-md-12">
-        <img src="./assets/images/education.png"  style="height: 40;" alt="education"><br>
+      </div>
+      <div class="col-lg-4 col-12 col-sm-12 col-md-12">
+        <div class="shadowBox">
 
-            education
-            </div>
+          <img src="./assets/images/ROPLANT.png" style="height: 40;" alt="ro plant"><br>
 
+          <span class="shadowboxText">roplant</span>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-12 col-sm-12 col-md-12">
+        <div class="shadowBox">
+
+          <img src="./assets/images/education.png" style="height: 40;" alt="education"><br>
+
+          <span class="shadowboxText">education</span>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="container mt-5 bg-white">
+    <div class="row">
+      <!-- <div class="col-lg-8 col-12 col-sm-12 col-md-6">
+    <h3 class=" missionheading "> Mission And Upcoming Project</h3>
+    </div> -->
+      <div class="col-lg-4 col-12 col-sm-12 col-md-4">
+        <img src="./assets/images/Hepatitis.png" alt="Hepattis" class="" />
+        <h3 class="missionheading ">Hepattis</h3>
+      </div>
+
+      <div class="col-lg-4 col-12 col-sm-12 col-md-4">
+        <img src="./assets/images/housing.png" alt="Hepattis" class="" />
+        <h3 class="missionheading ">Housing Society</h3>
+      </div>
+
+      <div class="col-lg-4 col-12 col-sm-12 col-md-4">
+        <img src="./assets/images/IT.png" alt="Hepattis" class="" />
+        <h3 class="missionheading ">it Literacy</h3>
+      </div>
+
+      <div class="col-lg-4 col-12 col-sm-12 col-md-4">
+        <img src="./assets/images/tharparkar.png" alt="Hepattis" class="" />
+        <h3 class="missionheading ">tharparkar</h3>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid mb-5">
+    <h1 class="saylani-introduction">image<span class="green">gallery</span></h1>
+    <div class="titleIcon">
+      <span class="rightbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;
+      <img src="./assets/images/favicon.png" class="img-fluid" alt="title Icon" />
+      &nbsp;&nbsp;<span class="leftbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </div>
+  </div>
+
+
+  <div class="container mb-5">
+    <div class="row">
+      <img class="w-20 rashanimg img-fluid" alt="Rashan " src="./assets/images/rashan2.jpg" />
+      <img class="w-20 rashanimg img-fluid" alt="food " src="assets/images/food.jpg" />
+      <img class="w-20 rashanimg img-fluid" alt="hazrat " src="assets/images/hazrat.jpg" />
+      <img class="w-20 rashanimg img-fluid" alt="Rashan " src="assets/images/rashan2.jpg" />
+      <img class="w-20 rashanimg img-fluid" alt="Hazrat " src="assets/images/hazrat2.jpg" />
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5 bg-dark pt-5 pb-5 footercolor">
+    <div class="row">
+      <div class="col-lg-4 col-12 col-sm-12 col-md-4">
+        <h4 class="footerheading">
+          Contact
+        </h4>
+        <ul class="liststylefooter">
+          <li>Head Office,</li>
+          <li>A-25, Bahadurabad Chowrangi Karachi, Pakistan</li>
+          <li><i class="fa fa-phone text-success"></i> &nbsp; UAN: 111-729-526 &nbsp;&nbsp;&nbsp;
+            <i class="fa fa-globe text-success"></i>(+0092-213) 4130786-90</li>
+          <li><i class="fa fa-phone text-success"></i> &nbsp;CELL: 92-311-1729526</li>
+          <li><i class="fa fa-phone text-success"></i> &nbsp;USA NO +1(716)941 7792</li>
+          <li><i class="fa fa-phone text-success"></i> &nbsp;UK NO (+44)115 970 6256</li>
+          <li><i class="fa fa-envelope text-success"></i> &nbsp; info@saylaniwelfare.com</li>
+        </ul>
+
+      </div>
+
+      <div class="col-lg-4 col-12 col-sm-12 col-md-4">
+        <h4 class=" footerheading">
+          Useful Links
+        </h4>
+
+      </div>
+
+      <div class="col-lg-4 col-12 col-sm-12 col-md-4">
+        <h4 class=" footerheading">
+          Connect With US
+        </h4>
+
+        <ul class="footersocialiconlist">
+          <li>
+            <i class="fa fa-facebook-f socail-icon-footer"></i>
+          </li>
+          <li>
+            <i class="fa fa-twitter socail-icon-footer"></i>
+
+          </li>
+
+          <li>
+            <i class="fa fa-instagram socail-icon-footer"></i>
+
+          </li>
+          <li>
+            <i class="fa fa-youtube socail-icon-footer"></i>
+
+          </li>
+          <li>
+            <i class="fa fa-whatsapp socail-icon-footer whatsapp"></i>
+
+          </li>
+        </ul>
+
+      </div>
     </div>
   </div>
 
@@ -362,10 +496,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     $('.carousel').carousel({
       interval: 2000
     })
+
+    AOS.init();
   </script>
 </body>
 
