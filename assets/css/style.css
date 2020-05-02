@@ -5,6 +5,9 @@ body {
 	scroll-behavior: smooth;
 	background-color: #f8f9fa;
 }
+h1,h2,h3,h4,h5,h6{
+	font-family: 'El Messiri', sans-serif;
+}
 .header {
 	background-color: #316dc3;
 	padding-top: 10px;
@@ -26,6 +29,7 @@ body {
 .button {
 	font-size: 12px;
 	padding: 5px 10px 5px 10px;
+	text-align:center;
 }
 .headerbtn {
 	text-align: center;
@@ -34,8 +38,8 @@ body {
 	background: green;
 }
 .carousel-item img {
-	height: 500px;
-	width: 100%;
+	height: auto;
+	max-width: 100%;
 }
 .container-fluid-new {
 	padding-right: 0px;
@@ -44,7 +48,6 @@ body {
 	margin-right: 0px;
 }
 .saylanilogowrapper {
-	/* margin: 10px 30px 0 0; */
 	margin-left: 5rem;
 }
 .Saylani-logo {
@@ -59,22 +62,18 @@ body {
 	background: #316dc3;
 	border-radius: 15px;
 }
-.change:hover, .change:active{
-	color: white !important;
-	background: #316dc3;
-	border-radius: 15px;
-}
-.navbar-nav li{
-	padding: 0px 0px 0 5px;
-}
-.navbar li:hover,.navbar li:active,
-.homeButton {
-	margin-left: 1.5rem;
-	background: #316dc3;
-	border-radius: 15px;
-	color: white !important;
-}
 
+.navbar li, .homeButton{
+padding-left: 8px;
+padding-right: 8px;
+}
+.navbar li:hover,
+.navbar li:active,
+.homeButton {
+	background: #316dc3;
+	border-radius: 15px;
+	color: white !important;
+}
 
 .navigationItems {
 	padding-left: 22%;
@@ -154,25 +153,15 @@ body {
 	color: #316dc3;
 	font-weight: 600;
 }
-.rashanimg {
-	width: 20% !important;
-}
+
 .footerheading {
-	padding-left: 37px;
 	color: white;
 	font-size: 20px;
 }
-.footerheading:after {
-	bottom: -1px;
-	content: "";
-	height: 2px;
-	left: 0;
-	position: absolute;
-	width: 50px;
-}
+
 
 .liststylefooter {
-	list-style: none;
+	list-style: none;	
 }
 .liststylefooter li i {
 	font-size: 16px;
@@ -181,9 +170,7 @@ body {
 	list-style: none;
 	display: flex;
 }
-.footersocialiconlist li {
-	margin-left: 5px;
-}
+
 .footersocialiconlist li :hover {
 	color: #316dc3;
 	background: white;
@@ -200,19 +187,188 @@ body {
 	color: #bbb;
 }
 
-
-.hepattis{
-	margin: 50px 0 0 50;
-    background: aliceblue;
-    height: 78px;
-    /* width: 144%; */
-    width: 600px;
-    align-items: center;
+.missionbox {
+	background: aliceblue;
+	height: 78px;
+	width: 320px;
 	display: flex;
+	align-items: center;
 	background-color: #f7f8fa !important;
 	border: 1px solid #eeee;
+	margin:10px;
 }
+
+
+.font-30 {
+	font-size: 45px;
+	font-weight: 600;
 }
-.font-30{
-	font-size: 25px;
+
+.font-25 {
+	font-size: 20px;
 }
+.font-26{
+	font-size: 35px;
+
+}
+.left {
+	max-width: 70%;
+	min-height: 250px;
+	background-color: white;
+}
+.right {
+	max-width: 30%;
+	min-height: 250px;
+	background-color: white;
+}
+.footerlist{
+	list-style: none;
+}
+
+.footerlist li{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.footerlist li:hover{
+	padding-right: 10px;
+	font-size: 20px;
+	color: white;
+}
+
+.missionbox .float-right{
+	margin-right: 30px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	/* body {background: red;} */
+	.left{
+		width: 100%;
+	}
+	.right{
+		width: 100%;
+		padding-left:50px;
+		padding-top:30px;
+	}
+
+	.missionbox{
+		width:100%;
+		margin:10px;
+		
+	}
+	 .float-right{
+		float: none !important;
+		margin-top:10px;
+	}
+	.missionheading{
+		text-align:center;
+		margin-left:5px !important;
+	}
+	.font-25{
+		font-size: 16px;
+	}
+	.navigationItems {
+		padding-left: 0%;
+	}
+
+	.headerbtn{
+		margin:5px 0 5px 0 ;
+	}
+	.social-icon-list {
+		display: inline-block;
+		list-style: none;
+		 margin-left: 0px; 
+	}
+	.social-icon-list li {
+		margin: 0px 5px 0px 15px;
+		display: inline-block;
+		
+	}
+	.header{
+		text-align:center;
+	}
+	.navbar{
+		padding: 0;
+	}
+
+	.mywrapper {
+		padding-left: 10px; 
+		 padding-right: 10px;
+		margin-bottom: 10px;
+	}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+	/* body {background: green;} */
+	
+	.left{
+		width: 100%;
+	}
+	.right{
+		width: 100%;
+	}
+	.navigationItems{
+		padding-left: 5px;
+	}
+	.missionbox{
+		max-width:100%;
+	}
+	.saylanilogowrapper {
+		margin-left: 5px;
+	}
+
+	.navbar li, .homeButton {
+		padding-left: 0px; 
+		 padding-right: 0px;
+	}
+	.header{
+		text-align:center;
+	}
+
+	.mywrapper{
+		padding-left: 10px;
+		padding-right:10px
+	}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+	/* body {background: blue;} */
+
+	.navigationItems{
+		padding-left: 23%;
+	}
+	.saylanilogowrapper {
+		margin-left: 5px;
+	}
+	.navbar li, .homeButton {
+		padding-left: 0px; 
+		 padding-right: 0px;
+	}
+
+	.header{
+		text-align:center;
+	}
+	.mywrapper{
+		padding-left: 10px;
+		padding-right:10px
+	}
+	.missionbox{
+		max-width:100%;
+		margin-right: 30px;
+	}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+	/* body {background: orange;} */
+
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+	/* body {background: pink;} */
+  }
